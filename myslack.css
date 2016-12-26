@@ -1,0 +1,276 @@
+* {
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+
+}
+body {
+	width: 100%;
+	height: 1042px;
+	background-image: url(https://a.slack-edge.com/4030/img/wired/nasa-header-image.jpg);
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position-y: 0%;
+	background-size: cover;
+	margin:0 auto;
+	padding: 0;
+	position: relative;
+	box-shadow: inset 0 0 540px rgba(0,0,0,1);
+}
+
+.logo {
+	background-image: url(https://a.slack-edge.com/66f9/img/landing/header_logo_sprite.png);
+	background-size: 106px 60px;
+	width: 106px;
+	height: 30px;
+	float: left;
+	margin: 20px 0 0 16px;
+}
+ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.padd:hover {	
+	width:54px;
+	height:15px;
+	padding: 8px 7px 9px;
+	border-radius: 5px;
+	background-color: #a9a9a9;
+	opacity: 0.4;
+}
+
+.nav-header {
+	width: 100%;
+	height: 70px;
+	z-index: 99;
+	position: absolute;
+	top: 0;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 15px;
+	font-weight: 700;
+}
+ul {
+	min-width: 400px;
+	float: right;
+	margin-top: 28px;
+}
+/*.sve-osim-hedera {
+	position: relative;
+	bottom: 0;
+}*/
+.sredina {
+	width: 100%;
+	height: 680px;
+	position: absolute;	
+}	
+.naslov {
+	max-width: 768px;
+	min-height: 150px;
+	position: relative;
+	top: 200px;
+	margin: 0 auto;
+	font-size: 3.61rem;
+}
+h1 {
+	color: white;
+	font-size: 57px;
+	text-align: center;
+}
+#under-robots {
+	width: 226px;
+	height: 69px;
+	position: relative;
+	font-style: oblique;
+}
+.underline-robots {
+	width: 186px; 
+	height:22px;
+	position:absolute;
+	bottom: -20px;
+	background-image: url(https://a.slack-edge.com/0180/img/landing/underlines_robots.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#under-mars {
+	width: 132px;
+	height: 69px;
+	font-style: oblique;
+	letter-spacing: .0106rem;
+	position: relative;
+}
+.underline-mars {
+	width: 132px; 
+	height:32px;
+	position:absolute;
+	bottom:-25px;
+	background-image: url(https://a.slack-edge.com/0180/img/landing/underlines_mars.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.uzvik {
+	font-size: 80px;
+	margin-left: 5px;
+	font-family: 'Shadows Into Light', cursive;
+}
+.mejl-deo {
+	max-width: 869px;
+	min-height: 250px;
+	position: relative;
+	top: 200px;
+	margin: 0 auto;
+}
+.rover {
+	font-size: 1.38rem;
+	color: #fff;
+}
+.unos {
+	width: 532px;
+	height: 129px;
+	margin: 0 auto;
+	padding: 19px 48px;
+	border-radius: 8px;
+	background-color: rgba(0, 0, 0, 0.65);
+	background-origin: padding-box;
+}
+.mejl {
+	width: 224px;
+	height: 50px;
+	border-radius: 4px;
+	padding: 12px;
+	font-size: 20px;
+}
+#submit {
+	width: 184px;
+	height: 50px;
+	background-color: #56B68B;
+	border: 1px solid #56B68B;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 700;
+	float: right;
+}
+.dva-dela {
+	width: 434px;
+	height: 50px;
+	font-size: 18px;
+}
+.dodatni {
+	color: #fff;
+	position: relative;
+	top: 22px;
+	left: 22px;
+	font-size: 15px;
+}
+.dodatni a {
+	color: #fff;
+	text-shadow: 0 0 1px rgb(0,0,0,.1);
+
+}
+.lokacija {
+	width: 100%;
+	height: 50px;
+	position: relative;
+	top: 170px;
+	text-align: right;
+}
+.lokacija a,
+.fa{
+	text-decoration: none;
+	color: #fff;
+}
+.lokacija a:hover {
+	text-decoration: underline;
+}
+
+.futer-tamno {
+	width: 100%;
+	height: 340px;
+	border-top: 1px solid rgba(255,255,255, 0.1);
+	padding-top: 40px;
+	position: absolute;
+	bottom: 0;
+	color:#9E9EA6;
+	background-color: #000;
+	opacity: 0.5;
+}
+.links {
+	max-width: 1014px;
+	height: 340px;
+	padding: 24px 0 0;
+	margin: 0 auto;
+	font-size: 13px;
+}
+.grid {
+	width: 100%;
+	height: 306px;	
+}
+.kolona {
+	width: 23.8%;
+	height: 214px;
+	float: left;
+	padding-right: 2%;
+	margin: 0 0 2%;
+}
+.kolona ul {
+	min-width:23.8%;
+	float: left;
+	margin: 0; 
+}
+.kolona ul li {
+	list-style: none;
+	width: 210px;
+	height: 27px;	
+}
+.kolona ul li a {
+	color: #9E9EA6;
+}
+.kat1,
+.kat2,
+.kat3,
+.kat4 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.futnota {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	background-color: #9e9ea6;
+	padding-bottom: 5px;
+}
+.futnota li {
+	list-style: none;
+}
+.futnota ul li {
+	display: inline;
+	margin-right: 3px;
+}
+.fa fa-twitter,
+.fa fa-youtube-play {
+	color: #fff;
+	font-size: 13px;
+}
+.futnota ul li a:hover {
+	color: rgba(255,255,255,0.7);
+}
+#lista{
+	width: 200px;
+	height: 40px;
+	position: relative;
+	bottom: 20px;
+	padding-top: 10px;
+	
+}
+.futnota img {
+	margin-left: 20px;
+	margin-top: 10px;
+}
